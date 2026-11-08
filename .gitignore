@@ -148,7 +148,8 @@ activemq-data/
 
 # SageMath parsed files
 *.sage.py
-
+data/anime/
+data/finnews/
 # Environments
 .env
 .envrc
@@ -158,7 +159,8 @@ venv/
 ENV/
 env.bak/
 venv.bak/
-
+CLAUDE.md
+AGENTS.md
 # Spyder project settings
 .spyderproject
 .spyproject
