@@ -1,0 +1,42 @@
+{
+  "classification": {
+    "baseline": {
+      "f1_macro": 0.4226,
+      "accuracy": 0.423
+    },
+    "improved": {
+      "f1_macro": 0.4888,
+      "accuracy": 0.5154
+    },
+    "custom": {
+      "f1_macro": 0.4226,
+      "accuracy": 0.423
+    },
+    "custom_improved": {
+      "f1_macro": 0.4888,
+      "accuracy": 0.5154
+    }
+  },
+  "regression": {
+    "baseline": {
+      "mae": 30.678,
+      "rmse": 40.915,
+      "r2": 0.0799
+    },
+    "improved": {
+      "mae": 29.901,
+      "rmse": 39.08,
+      "r2": 0.1605
+    },
+    "custom": {
+      "mae": 30.678,
+      "rmse": 40.915,
+      "r2": 0.0799
+    },
+    "custom_improved": {
+      "mae": 29.901,
+      "rmse": 39.08,
+      "r2": 0.1605
+    }
+  }
+}

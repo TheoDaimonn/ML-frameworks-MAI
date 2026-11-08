@@ -150,6 +150,7 @@ activemq-data/
 *.sage.py
 data/anime/
 data/finnews/
+data/cache/
 # Environments
 .env
 .envrc

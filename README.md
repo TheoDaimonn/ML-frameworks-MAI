@@ -7,6 +7,25 @@
 * data/ - директория с данными
 * ./data/DATASET_NAME - путь до датасета в директории
 
+| Ноутбук | Алгоритм |
+|---|---|
+| [labs/LR1_knn.ipynb](labs/LR1_knn.ipynb) | KNN (+ выбор датасетов и метрик) |
+| [labs/LR2_linear.ipynb](labs/LR2_linear.ipynb) | Логистическая и линейная регрессия |
+| [labs/LR3_decision_tree.ipynb](labs/LR3_decision_tree.ipynb) | Решающее дерево |
+| [labs/LR4_random_forest.ipynb](labs/LR4_random_forest.ipynb) | Случайный лес |
+| [labs/LR5_gradient_boosting.ipynb](labs/LR5_gradient_boosting.ipynb) | Градиентный бустинг |
+| [labs/LR_summary.ipynb](labs/LR_summary.ipynb) | Итоги и сравнение всех алгоритмов ЛР1–5 |
+
+Каждая ЛР сохраняет метрики в `labs/results/LR*.json`, итоговый ноутбук собирает их в общие таблицы.
+
+Запуск:
+
+```bash
+python -m venv .venv && source .venv/bin/activate
+pip install -r requirements.txt
+cd labs && jupyter nbconvert --to notebook --execute --inplace LR1_knn.ipynb   # и далее по порядку, LR_summary — последним
+```
+
 **Ссылки на датасеты:**
 
 [https://www.kaggle.com/datasets/theodaimones888/russian-anime-reviews-dataset](https://www.kaggle.com/datasets/theodaimones888/russian-anime-reviews-dataset) - Сентимент анализ отзывов на аниме
